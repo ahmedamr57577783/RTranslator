@@ -1,0 +1,884 @@
+diff --git a/app/src/main/assets/military_glossary.tsv b/app/src/main/assets/military_glossary.tsv
+new file mode 100644
+index 0000000..fe7b1a2
+--- /dev/null
++++ b/app/src/main/assets/military_glossary.tsv
+@@ -0,0 +1,604 @@
++# military glossary: english<TAB>arabic<TAB>category
++second lieutenant	ملازم	ranks
++first lieutenant	ملازم أول	ranks
++lieutenant	ملازم	ranks
++captain	نقيب	ranks
++major	رائد	ranks
++lieutenant colonel	مقدم	ranks
++colonel	عقيد	ranks
++brigadier general	عميد	ranks
++brigadier	عميد	ranks
++major general	لواء	ranks
++lieutenant general	فريق	ranks
++general	فريق أول	ranks
++field marshal	مشير	ranks
++commander in chief	القائد الأعلى	ranks
++chief of staff	رئيس الأركان	ranks
++private	جندي	ranks
++private first class	جندي أول	ranks
++corporal	عريف	ranks
++sergeant	رقيب	ranks
++staff sergeant	رقيب أول	ranks
++sergeant major	مساعد	ranks
++master sergeant	مساعد أول	ranks
++warrant officer	مساعد رتبة	ranks
++cadet	طالب ضابط	ranks
++officer	ضابط	ranks
++non-commissioned officer	ضابط صف	ranks
++NCO	ضابط صف	ranks
++enlisted man	مجند	ranks
++recruit	مجند جديد	ranks
++conscript	مجند	ranks
++reservist	احتياطي	ranks
++veteran	محارب قديم	ranks
++squad leader	قائد الفصيلة	ranks
++platoon commander	قائد الفصيلة	ranks
++company commander	قائد السرية	ranks
++battalion commander	قائد الكتيبة	ranks
++brigade commander	قائد اللواء	ranks
++division commander	قائد الفرقة	ranks
++squad	فصيلة	units
++section	مجموعة	units
++platoon	فصيلة مشاة	units
++company	سرية	units
++battery	بطارية مدفعية	units
++battalion	كتيبة	units
++regiment	فوج	units
++brigade	لواء	units
++division	فرقة	units
++corps	فيلق	units
++army	جيش	units
++army group	مجموعة جيوش	units
++detachment	مفرزة	units
++task force	قوة مهام	units
++garrison	حامية	units
++headquarters	مقر القيادة	units
++HQ	مقر القيادة	units
++command post	مركز القيادة	units
++forward operating base	قاعدة عمليات أمامية	units
++base	قاعدة	units
++camp	معسكر	units
++outpost	نقطة مراقبة	units
++checkpoint	نقطة تفتيش	units
++infantry	مشاة	units
++armored corps	سلاح المدرعات	units
++artillery corps	سلاح المدفعية	units
++engineers	سلاح المهندسين	units
++signal corps	سلاح الإشارة	units
++special forces	قوات خاصة	units
++paratroopers	مظليين	units
++commandos	كوماندوز	units
++reconnaissance unit	وحدة استطلاع	units
++air force	قوات جوية	units
++navy	قوات بحرية	units
++air defense	دفاع جوي	units
++border guards	حرس الحدود	units
++military police	شرطة عسكرية	units
++national guard	حرس وطني	units
++reinforcements	تعزيزات	units
++reserve unit	وحدة احتياط	units
++attention	انتباه	commands
++at ease	استراحة	commands
++stand at ease	استراحة	commands
++fall in	تجمع	commands
++fall out	انصراف	commands
++dismissed	انصراف	commands
++forward march	للأمام سير	commands
++quick march	سير سريع	commands
++double time	سير مضاعف	commands
++halt	قف	commands
++about turn	للخلف دور	commands
++right turn	لليمين دور	commands
++left turn	للشمال دور	commands
++salute	سلام عسكري	commands
++present arms	سلم سلاح	commands
++order arms	أسقط سلاح	commands
++shoulder arms	احمل سلاح	commands
++fix bayonets	ركب حربة	commands
++charge	هجوم	commands
++fire	اضرب	commands
++open fire	افتح النار	commands
++cease fire	وقف إطلاق النار	commands
++hold your fire	لا تطلق النار	commands
++take cover	احتمي	commands
++get down	انبطح	commands
++take aim	صوب	commands
++ready	استعد	commands
++move out	تحرك	commands
++advance	تقدم	commands
++retreat	انسحب	commands
++withdraw	انسحاب	commands
++hold position	ثبت مكانك	commands
++hold the line	اثبت على الخط	commands
++take position	خذ موقعك	commands
++follow me	اتبعني	commands
++spread out	انتشروا	commands
++take cover now	احتموا فورا	commands
++man your stations	كل إلى موقعه	commands
++stand to	استعداد قتال	commands
++stand down	إنهاء الاستعداد	commands
++surrender	استسلم	commands
++hands up	ارفع إيدك	commands
++drop your weapon	ارمي سلاحك	commands
++don't move	متتحركش	commands
++don't shoot	متضربش نار	commands
++stop or I shoot	قف وإلا هضرب نار	commands
++identify yourself	عرّف بنفسك	commands
++password	كلمة السر	commands
++advance and be recognized	تقدم ليتم التعرف عليك	commands
++weapon	سلاح	weapons
++pistol	طبنجة	weapons
++revolver	مسدس	weapons
++rifle	بندقية	weapons
++assault rifle	بندقية آلية	weapons
++automatic rifle	بندقية رشاشة	weapons
++carbine	بندقية قصيرة	weapons
++machine gun	رشاش	weapons
++light machine gun	رشاش خفيف	weapons
++heavy machine gun	رشاش ثقيل	weapons
++submachine gun	رشاش قصير	weapons
++sniper rifle	بندقية قنص	weapons
++sniper	قناص	weapons
++shotgun	بندقية خرطوش	weapons
++grenade	قنبلة يدوية	weapons
++hand grenade	قنبلة يدوية	weapons
++smoke grenade	قنبلة دخان	weapons
++stun grenade	قنبلة صوتية	weapons
++flashbang	قنبلة صوتية	weapons
++grenade launcher	قاذف قنابل	weapons
++rocket-propelled grenade	قذيفة آر بي جي	weapons
++RPG	آر بي جي	weapons
++rocket launcher	قاذف صواريخ	weapons
++anti-tank missile	صاروخ مضاد للدبابات	weapons
++anti-tank guided missile	صاروخ موجه مضاد للدبابات	weapons
++ATGM	صاروخ موجه مضاد للدبابات	weapons
++surface-to-air missile	صاروخ أرض جو	weapons
++SAM	صاروخ أرض جو	weapons
++air-to-air missile	صاروخ جو جو	weapons
++cruise missile	صاروخ كروز	weapons
++ballistic missile	صاروخ باليستي	weapons
++mortar	هاون	weapons
++howitzer	مدفع هاوتزر	weapons
++field artillery	مدفعية ميدانية	weapons
++artillery	مدفعية	weapons
++cannon	مدفع	weapons
++anti-aircraft gun	مدفع مضاد للطائرات	weapons
++recoilless rifle	مدفع عديم الارتداد	weapons
++multiple rocket launcher	راجمة صواريخ	weapons
++MLRS	راجمة صواريخ	weapons
++tank	دبابة	weapons
++main battle tank	دبابة قتال رئيسية	weapons
++armored personnel carrier	ناقلة جنود مدرعة	weapons
++APC	ناقلة جنود مدرعة	weapons
++infantry fighting vehicle	مركبة قتال مشاة	weapons
++IFV	مركبة قتال مشاة	weapons
++armored vehicle	مركبة مدرعة	weapons
++armored car	سيارة مصفحة	weapons
++mine-resistant vehicle	مركبة مقاومة للألغام	weapons
++self-propelled gun	مدفع ذاتي الحركة	weapons
++tank destroyer	مدمرة دبابات	weapons
++flamethrower	قاذف لهب	weapons
++bayonet	حربة	weapons
++combat knife	سكين قتال	weapons
++silencer	كاتم صوت	weapons
++scope	منظار تسديد	weapons
++night vision scope	منظار رؤية ليلية	weapons
++laser sight	محدد ليزر	weapons
++ammunition	ذخيرة	ammo
++ammo	ذخيرة	ammo
++bullet	رصاصة	ammo
++cartridge	طلقة	ammo
++round	طلقة	ammo
++shell	قذيفة	ammo
++magazine	مخزن سلاح	ammo
++clip	مشبك ذخيرة	ammo
++belt	شريط ذخيرة	ammo
++tracer round	طلقة مضيئة	ammo
++armor-piercing round	طلقة خارقة للدروع	ammo
++hollow point	رصاصة مجوفة	ammo
++blank cartridge	طلقة صوتية	ammo
++live ammunition	ذخيرة حية	ammo
++explosive	متفجرات	ammo
++dynamite	ديناميت	ammo
++TNT	تي إن تي	ammo
++C-4	سي فور	ammo
++plastic explosive	متفجرات بلاستيكية	ammo
++detonator	صاعق	ammo
++fuse	فتيل	ammo
++landmine	لغم أرضي	ammo
++anti-personnel mine	لغم مضاد للأفراد	ammo
++anti-tank mine	لغم مضاد للدبابات	ammo
++minefield	حقل ألغام	ammo
++improvised explosive device	عبوة ناسفة	ammo
++IED	عبوة ناسفة	ammo
++booby trap	فخ متفجر	ammo
++warhead	رأس حربي	ammo
++shrapnel	شظايا	ammo
++cluster bomb	قنبلة عنقودية	ammo
++napalm	نابالم	ammo
++incendiary bomb	قنبلة حارقة	ammo
++depth charge	قنبلة أعماق	ammo
++torpedo	طوربيد	ammo
++misfire	طلقة معطلة	ammo
++dud	قذيفة لم تنفجر	ammo
++unexploded ordnance	ذخيرة غير منفجرة	ammo
++ammo dump	مخزن ذخيرة	ammo
++magazine pouch	جراب مخازن	ammo
++jeep	جيب	vehicles
++military truck	شاحنة عسكرية	vehicles
++transport truck	شاحنة نقل	vehicles
++fuel tanker	صهريج وقود	vehicles
++ambulance	سيارة إسعاف	vehicles
++recovery vehicle	مركبة إنقاذ	vehicles
++bulldozer	جرافة	vehicles
++bridging vehicle	مركبة إقامة جسور	vehicles
++fighter jet	طائرة مقاتلة	vehicles
++fighter plane	طائرة مقاتلة	vehicles
++bomber	قاذفة قنابل	vehicles
++helicopter	مروحية	vehicles
++attack helicopter	مروحية هجومية	vehicles
++transport helicopter	مروحية نقل	vehicles
++drone	طائرة مسيرة	vehicles
++UAV	طائرة بدون طيار	vehicles
++reconnaissance aircraft	طائرة استطلاع	vehicles
++transport plane	طائرة نقل	vehicles
++warship	سفينة حربية	vehicles
++destroyer	مدمرة	vehicles
++frigate	فرقاطة	vehicles
++corvette	كورفيت	vehicles
++aircraft carrier	حاملة طائرات	vehicles
++submarine	غواصة	vehicles
++patrol boat	زورق دورية	vehicles
++landing craft	سفينة إنزال	vehicles
++minesweeper	كاسحة ألغام	vehicles
++gunboat	زورق مسلح	vehicles
++operation	عملية	operations
++mission	مهمة	operations
++combat	قتال	operations
++battle	معركة	operations
++war	حرب	operations
++front line	خط المواجهة	operations
++frontline	الجبهة	operations
++theater of operations	مسرح العمليات	operations
++offensive	هجوم	operations
++counteroffensive	هجوم مضاد	operations
++counterattack	هجوم مرتد	operations
++assault	اقتحام	operations
++raid	غارة	operations
++ambush	كمين	operations
++patrol	دورية	operations
++reconnaissance	استطلاع	operations
++recon	استطلاع	operations
++surveillance	مراقبة	operations
++infiltration	تسلل	operations
++exfiltration	تسلل للخارج	operations
++withdrawal	انسحاب	operations
++breakthrough	اختراق	operations
++encirclement	تطويق	operations
++siege	حصار	operations
++blockade	حصار بحري	operations
++perimeter	محيط	operations
++defensive position	موقع دفاعي	operations
++defense	دفاع	operations
++fortification	تحصين	operations
++stronghold	معقل	operations
++bridgehead	رأس جسر	operations
++beachhead	رأس شاطئ	operations
++airdrop	إنزال جوي	operations
++airborne operation	عملية إنزال جوي	operations
++amphibious landing	إنزال برمائي	operations
++evacuation	إخلاء	operations
++extraction	سحب	operations
++search and destroy	بحث وتدمير	operations
++search and rescue	بحث وإنقاذ	operations
++clearing operation	عملية تمشيط	operations
++mopping up	تمشيط	operations
++securing the area	تأمين المنطقة	operations
++area secured	المنطقة مؤمنة	operations
++kill zone	منطقة قتل	operations
++no man's land	أرض حرام	operations
++demilitarized zone	منطقة منزوعة السلاح	operations
++buffer zone	منطقة عازلة	operations
++no-fly zone	منطقة حظر طيران	operations
++rules of engagement	قواعد الاشتباك	operations
++ceasefire	وقف إطلاق نار	operations
++truce	هدنة	operations
++armistice	هدنة	operations
++peace treaty	معاهدة سلام	operations
++unconditional surrender	استسلام غير مشروط	operations
++prisoner of war	أسير حرب	operations
++POW	أسير حرب	operations
++captured	تم أسره	operations
++missing in action	مفقود في المعركة	operations
++MIA	مفقود في المعركة	operations
++killed in action	قُتل في المعركة	operations
++KIA	قُتل في المعركة	operations
++wounded in action	أصيب في المعركة	operations
++casualty	إصابة	operations
++casualties	خسائر بشرية	operations
++friendly fire	نيران صديقة	operations
++collateral damage	أضرار جانبية	operations
++close combat	قتال قريب	operations
++hand-to-hand combat	قتال بالأيدي	operations
++urban warfare	حرب شوارع	operations
++guerrilla warfare	حرب عصابات	operations
++trench warfare	حرب خنادق	operations
++sniper fire	نيران قناصة	operations
++covering fire	نيران تغطية	operations
++suppressive fire	نيران كثيفة للتثبيت	operations
++barrage	وابل ناري	operations
++artillery strike	ضربة مدفعية	operations
++airstrike	ضربة جوية	operations
++air support	دعم جوي	operations
++close air support	دعم جوي قريب	operations
++bombardment	قصف	operations
++shelling	قصف مدفعي	operations
++crossfire	نيران متقاطعة	operations
++flanking maneuver	مناورة التفاف	operations
++pincer movement	حركة كماشة	operations
++diversion	تمويه	operations
++feint	هجوم وهمي	operations
++trap	فخ	operations
++choke point	نقطة اختناق	operations
++high ground	أرض مرتفعة	operations
++observation post	موقع مراقبة	operations
++rally point	نقطة تجمع	operations
++drop zone	منطقة إنزال	operations
++landing zone	منطقة هبوط	operations
++extraction point	نقطة سحب	operations
++objective	هدف	operations
++target	هدف	operations
++target acquired	تم تحديد الهدف	operations
++target destroyed	تم تدمير الهدف	operations
++engage the enemy	اشتبك مع العدو	operations
++enemy contact	تلامس مع العدو	operations
++contact	تلامس	operations
++trench	خندق	fortifications
++foxhole	حفرة قتال	fortifications
++bunker	مخبأ	fortifications
++pillbox	مصطبة خرسانية	fortifications
++sandbag	كيس رمل	fortifications
++barbed wire	سلك شائك	fortifications
++concertina wire	سلك شائك حلزوني	fortifications
++barricade	متاريس	fortifications
++barrier	حاجز	fortifications
++roadblock	حاجز طريق	fortifications
++blast wall	جدار حماية	fortifications
++watchtower	برج مراقبة	fortifications
++guard post	نقطة حراسة	fortifications
++shelter	ملجأ	fortifications
++bomb shelter	ملجأ قنابل	fortifications
++dugout	مخبأ أرضي	fortifications
++camouflage	تمويه	fortifications
++camouflage net	شبكة تمويه	fortifications
++firing position	موقع إطلاق نار	fortifications
++machine gun nest	عش رشاش	fortifications
++anti-tank ditch	خندق مضاد للدبابات	fortifications
++fort	حصن	fortifications
++fortress	قلعة	fortifications
++bunker buster	قنبلة خارقة للتحصينات	fortifications
++radio	لاسلكي	comms
++walkie-talkie	جهاز لاسلكي محمول	comms
++radio operator	مشغل لاسلكي	comms
++frequency	تردد	comms
++channel	قناة	comms
++call sign	إشارة نداء	comms
++over	استلم	comms
++roger	تم الاستلام	comms
++wilco	سأنفذ	comms
++copy	فهمت	comms
++copy that	فهمت	comms
++affirmative	إيجابي	comms
++negative	سلبي	comms
++say again	أعد	comms
++radio silence	صمت لاسلكي	comms
++message	رسالة	comms
++transmission	إرسال	comms
++signal	إشارة	comms
++encrypted channel	قناة مشفرة	comms
++encryption	تشفير	comms
++code	شفرة	comms
++code word	كلمة شفرة	comms
++jamming	تشويش	comms
++radar	رادار	comms
++sonar	سونار	comms
++satellite communication	اتصال بالأقمار الصناعية	comms
++antenna	هوائي	comms
++night vision goggles	نظارة رؤية ليلية	comms
++thermal imaging	تصوير حراري	comms
++binoculars	منظار	comms
++flare	شمروخ	comms
++signal flare	شمروخ إشارة	comms
++smoke signal	إشارة دخان	comms
++intercom	اتصال داخلي	comms
++headset	سماعة رأس	comms
++morse code	شفرة مورس	comms
++logistics	إمداد	logistics
++supply line	خط إمداد	logistics
++supplies	إمدادات	logistics
++convoy	قافلة	logistics
++ration	حصة غذائية	logistics
++field rations	مؤن ميدانية	logistics
++fuel	وقود	logistics
++ammunition supply	إمداد ذخيرة	logistics
++resupply	إعادة إمداد	logistics
++airlift	جسر جوي	logistics
++supply drop	إسقاط إمدادات	logistics
++depot	مستودع	logistics
++armory	مخزن أسلحة	logistics
++arsenal	ترسانة	logistics
++quartermaster	ضابط الإمداد	logistics
++spare parts	قطع غيار	logistics
++maintenance	صيانة	logistics
++breakdown	عطل	logistics
++medical evacuation	إخلاء طبي	medical
++medevac	إخلاء طبي	medical
++field hospital	مستشفى ميداني	medical
++aid station	نقطة إسعاف	medical
++medic	مسعف	medical
++stretcher	نقالة	medical
++tourniquet	عاصبة	medical
++bandage	ضمادة	medical
++first aid kit	حقيبة إسعافات أولية	medical
++triage	فرز طبي	medical
++wounded	جريح	medical
++severely wounded	جريح في حالة خطيرة	medical
++bleeding	نزيف	medical
++gunshot wound	إصابة بطلق ناري	medical
++shock	صدمة	medical
++evacuate the wounded	إخلاء الجرحى	medical
++intelligence	استخبارات	intel
++counterintelligence	مكافحة التجسس	intel
++spy	جاسوس	intel
++informant	مخبر	intel
++interrogation	استجواب	intel
++interrogator	محقق	intel
++classified	سري	intel
++top secret	سري للغاية	intel
++declassified	رفعت عنه السرية	intel
++code name	اسم حركي	intel
++cover name	اسم مستعار	intel
++agent	عميل	intel
++double agent	عميل مزدوج	intel
++saboteur	مخرب	intel
++sabotage	تخريب	intel
++defector	منشق	intel
++espionage	تجسس	intel
++briefing	إيجاز	intel
++debriefing	استجواب بعد المهمة	intel
++target dossier	ملف الهدف	intel
++aerial photography	تصوير جوي	intel
++satellite imagery	صور الأقمار الصناعية	intel
++signal intelligence	استخبارات إشارات	intel
++enemy strength	قوة العدو	intel
++intelligence report	تقرير استخباراتي	intel
++conscription	تجنيد إجباري	personnel
++enlistment	تطوع	personnel
++volunteer	متطوع	personnel
++deployment	انتشار	personnel
++deployed	تم نشره	personnel
++rotation	تناوب	personnel
++tour of duty	فترة خدمة	personnel
++service record	سجل الخدمة	personnel
++promotion	ترقية	personnel
++demotion	خفض رتبة	personnel
++discharge	تسريح	personnel
++honorable discharge	تسريح بشرف	personnel
++dishonorable discharge	تسريح بغير شرف	personnel
++desertion	فرار من الخدمة	personnel
++deserter	هارب من الخدمة	personnel
++AWOL	غائب بدون إذن	personnel
++leave	إجازة	personnel
++pass	تصريح مرور	personnel
++dog tags	بطاقة تعريف عسكرية	personnel
++military ID	بطاقة عسكرية	personnel
++unit patch	شارة الوحدة	personnel
++insignia	شارة رتبة	personnel
++medal	ميدالية	personnel
++decoration	وسام	personnel
++court martial	محكمة عسكرية	personnel
++military prison	سجن عسكري	personnel
++discipline	انضباط	personnel
++order	أمر	personnel
++direct order	أمر مباشر	personnel
++chain of command	سلسلة القيادة	personnel
++superior officer	ضابط أعلى	personnel
++subordinate	مرؤوس	personnel
++uniform	زي عسكري	uniforms
++fatigues	بدلة عمل	uniforms
++combat uniform	بدلة قتال	uniforms
++camouflage uniform	زي مموه	uniforms
++helmet	خوذة	uniforms
++steel helmet	خوذة فولاذية	uniforms
++body armor	درع واقي	uniforms
++bulletproof vest	سترة مضادة للرصاص	uniforms
++flak jacket	سترة مضادة للشظايا	uniforms
++gas mask	قناع غاز	uniforms
++boots	حذاء عسكري	uniforms
++beret	بيرية	uniforms
++rucksack	حقيبة ظهر	uniforms
++backpack	حقيبة ظهر	uniforms
++webbing	حمالات معدات	uniforms
++canteen	مطارة	uniforms
++sleeping bag	كيس نوم	uniforms
++tent	خيمة	uniforms
++entrenching tool	أداة حفر	uniforms
++compass	بوصلة	navigation
++map	خريطة	navigation
++topographic map	خريطة طبوغرافية	navigation
++grid reference	إحداثيات الشبكة	navigation
++coordinates	إحداثيات	navigation
++latitude	خط العرض	navigation
++longitude	خط الطول	navigation
++azimuth	سمت	navigation
++bearing	اتجاه	navigation
++landmark	علامة مميزة	navigation
++waypoint	نقطة طريق	navigation
++GPS	نظام تحديد المواقع	navigation
++dead reckoning	ملاحة تقديرية	navigation
++north	شمال	navigation
++south	جنوب	navigation
++east	شرق	navigation
++west	غرب	navigation
++altitude	ارتفاع	navigation
++terrain	تضاريس	navigation
++valley	وادي	navigation
++ridge	سلسلة جبال	navigation
++hilltop	قمة تل	navigation
++river crossing	عبور نهر	navigation
++bridge	جسر	navigation
++mine clearing	إزالة ألغام	operations
++demining	نزع الألغام	operations
++curfew	حظر تجول	operations
++restricted area	منطقة محظورة	operations
++exclusion zone	منطقة محظورة	operations
++green zone	منطقة خضراء	operations
++red zone	منطقة حمراء	operations
++evacuation route	طريق إخلاء	operations
++escape route	طريق هروب	operations
++incident	حادث	operations
++situation report	تقرير موقف	operations
++SITREP	تقرير موقف	operations
++status update	تحديث الحالة	operations
++all clear	انتهى الخطر	operations
++mayday	نداء استغاثة	operations
++we are under attack	نحن تحت الهجوم	phrases
++requesting backup	نطلب دعما	phrases
++send reinforcements	أرسل تعزيزات	phrases
++enemy spotted	تم رصد العدو	phrases
++enemy ahead	العدو أمامنا	phrases
++tank approaching	دبابة تقترب	phrases
++take that position	سيطر على الموقع	phrases
++cover me	غطيني	phrases
++I'm hit	أصبت	phrases
++man down	عندنا إصابة	phrases
++we need a medic	محتاجين مسعف	phrases
++pull back	ارجع للخلف	phrases
++fall back	تراجع	phrases
++regroup	إعادة تجميع	phrases
++hold this position	احتفظ بهذا الموقع	phrases
++secure the perimeter	أمن المحيط	phrases
++sweep the area	مشط المنطقة	phrases
++clear the building	طهر المبنى	phrases
++move in	ادخل	phrases
++breach the door	اكسر الباب	phrases
++grenade out	قنبلة	phrases
++incoming	قذائف قادمة	phrases
++get to cover	احتمي	fortifications
++where is your commander	أين قائدك	phrases
++lay down your weapons	ارموا أسلحتكم	phrases
++you are surrounded	أنتم محاصرون	phrases
++we come in peace	جئنا بسلام	phrases
++don't be afraid	لا تخف	phrases
++is anyone hurt	هل أصيب أحد	phrases
++show me your hands	وريني إيديك	phrases
++turn around slowly	استدر ببطء	phrases
++get on the ground	انزل على الأرض	phrases
++kneel down	اركع	phrases
++do you understand me	هل تفهمني	phrases
++we are not the enemy	نحن لسنا العدو	phrases
++follow instructions	اتبع التعليمات	phrases
++wait here	انتظر هنا	phrases
++move forward	تقدم للأمام	phrases
++one at a time	واحد واحد	phrases
++form a line	اصطفوا في طابور	phrases
+diff --git a/app/src/main/java/nie/translator/rtranslator/tools/CustomGlossary.java b/app/src/main/java/nie/translator/rtranslator/tools/CustomGlossary.java
+new file mode 100644
+index 0000000..4d8bbc3
+--- /dev/null
++++ b/app/src/main/java/nie/translator/rtranslator/tools/CustomGlossary.java
+@@ -0,0 +1,186 @@
++package nie.translator.rtranslator.tools;
++
++import android.util.Log;
++
++import java.io.BufferedReader;
++import java.io.InputStream;
++import java.io.InputStreamReader;
++import java.nio.charset.StandardCharsets;
++import java.util.ArrayList;
++import java.util.LinkedHashMap;
++import java.util.List;
++import java.util.Locale;
++import java.util.Map;
++import java.util.regex.Matcher;
++import java.util.regex.Pattern;
++
++import nie.translator.rtranslator.Global;
++
++/**
++ * Custom military terminology glossary (English <-> Arabic).
++ * Loaded from assets/military_glossary.tsv (columns: english, arabic, category).
++ * Provides:
++ *  - exactTranslate(): whole-phrase exact match, bypassing the neural model
++ *  - maskText()/unmask(): in-sentence placeholder substitution so the neural
++ *    model keeps our preferred translation for known terms
++ */
++public class CustomGlossary {
++    private static final String TAG = "CustomGlossary";
++    private static final int MAX_TERMS_PER_TEXT = 20;
++
++    private static volatile boolean loaded = false;
++    private static final Map<String, String> enToAr = new LinkedHashMap<>();
++    private static final Map<String, String> arToEn = new LinkedHashMap<>();
++    private static final List<String> enTermsSorted = new ArrayList<>();
++    private static final List<String> arTermsSorted = new ArrayList<>();
++
++    public static synchronized void load(Global global) {
++        if (loaded || global == null) return;
++        try {
++            InputStream is = global.getAssets().open("military_glossary.tsv");
++            BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
++            String line;
++            while ((line = reader.readLine()) != null) {
++                line = line.trim();
++                if (line.isEmpty() || line.startsWith("#")) continue;
++                String[] parts = line.split("\t");
++                if (parts.length < 2) continue;
++                String en = parts[0].trim();
++                String ar = parts[1].trim();
++                if (en.isEmpty() || ar.isEmpty() || en.equalsIgnoreCase("en")) continue;
++                enToAr.put(normEn(en), ar);
++                arToEn.put(normAr(ar), en);
++            }
++            reader.close();
++            enTermsSorted.addAll(enToAr.keySet());
++            arTermsSorted.addAll(arToEn.keySet());
++            // longest first so multi-word terms win over their sub-terms
++            enTermsSorted.sort((a, b) -> b.length() - a.length());
++            arTermsSorted.sort((a, b) -> b.length() - a.length());
++            loaded = true;
++            Log.i(TAG, "military glossary loaded: " + enToAr.size() + " terms");
++        } catch (Exception e) {
++            e.printStackTrace();
++            loaded = true;  // never block translation on glossary problems
++        }
++    }
++
++    private static boolean isEn(CustomLocale lang) {
++        return lang != null && "eng".equalsIgnoreCase(lang.getISO3Language());
++    }
++
++    private static boolean isAr(CustomLocale lang) {
++        if (lang == null) return false;
++        String code = lang.getISO3Language();
++        return code != null && code.toLowerCase(Locale.ROOT).startsWith("ar");
++    }
++
++    private static String stripEdgePunctuation(String s) {
++        return s.replaceAll("^[\\p{Punct}\\u061F\\u060C\\u061B]+", "").replaceAll("[\\p{Punct}\\u061F\\u060C\\u061B]+$", "").trim();
++    }
++
++    private static String normEn(String s) {
++        String t = TextTools.normalizeText(s);
++        if (t == null) return "";
++        return stripEdgePunctuation(t.toLowerCase(Locale.ROOT));
++    }
++
++    private static String normAr(String s) {
++        String t = TextTools.normalizeText(s);
++        if (t == null) return "";
++        t = t.replace("\u0640", "");                              // tatweel
++        t = t.replaceAll("[\u064B-\u0652\u0670]", "");           // diacritics
++        t = t.replaceAll("[\u0623\u0625\u0622\u0671]", "\u0627"); // alef variants
++        t = t.replace("\u0649", "\u064A").replace("\u0629", "\u0647"); // common spelling variants
++        return stripEdgePunctuation(t);
++    }
++
++    /** Whole-phrase exact translation. Returns null when there is no exact match. */
++    public static String exactTranslate(Global global, String text, CustomLocale srcLang, CustomLocale tgtLang) {
++        load(global);
++        if (text == null) return null;
++        if (isEn(srcLang) && isAr(tgtLang)) {
++            return enToAr.get(normEn(text));
++        } else if (isAr(srcLang) && isEn(tgtLang)) {
++            return arToEn.get(normAr(text));
++        }
++        return null;
++    }
++
++    /**
++     * Replaces known terms in text with placeholders (MILTERM0X, MILTERM1X, ...)
++     * and fills outMask with placeholder -> translation in the target language.
++     * Returns the (possibly) modified text.
++     */
++    public static String maskText(Global global, String text, CustomLocale srcLang, CustomLocale tgtLang, Map<String, String> outMask) {
++        load(global);
++        if (text == null || outMask == null) return text;
++        boolean en = isEn(srcLang) && isAr(tgtLang);
++        boolean ar = isAr(srcLang) && isEn(tgtLang);
++        if (!en && !ar) return text;
++
++        String result = ar ? normArKeepPunctuation(text) : text;
++        List<String> terms = en ? enTermsSorted : arTermsSorted;
++        int index = outMask.size();
++        for (String term : terms) {
++            if (index >= MAX_TERMS_PER_TEXT) break;
++            String target = en ? enToAr.get(term) : arToEn.get(term);
++            if (target == null) continue;
++            String placeholder = "MILTERM" + index + "X";
++            String replaced = replaceTerm(result, term, placeholder, en);
++            if (!replaced.equals(result)) {
++                outMask.put(placeholder, target);
++                result = replaced;
++                index++;
++            }
++        }
++        return result;
++    }
++
++    private static String normArKeepPunctuation(String s) {
++        String t = s.replace("\u0640", "");
++        t = t.replaceAll("[\u064B-\u0652\u0670]", "");
++        t = t.replaceAll("[\u0623\u0625\u0622\u0671]", "\u0627");
++        t = t.replace("\u0649", "\u064A").replace("\u0629", "\u0647");
++        return t;
++    }
++
++    private static String replaceTerm(String text, String term, String replacement, boolean en) {
++        try {
++            Pattern p;
++            if (en) {
++                p = Pattern.compile("(?<![A-Za-z])" + Pattern.quote(term) + "(?![A-Za-z])",
++                        Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CASE);
++            } else {
++                p = Pattern.compile("(?<![\\u0600-\\u06FF])" + Pattern.quote(term) + "(?![\\u0600-\\u06FF])");
++            }
++            return p.matcher(text).replaceAll(Matcher.quoteReplacement(replacement));
++        } catch (Exception e) {
++            return text;
++        }
++    }
++
++    /**
++     * Restores placeholders in the translated output with the target-language
++     * terms. Tolerates whitespace/case changes introduced by detokenization.
++     * Unknown leftovers are removed so the user never sees raw placeholders.
++     */
++    public static String unmask(String output, Map<String, String> maskMap) {
++        if (output == null || maskMap == null || maskMap.isEmpty()) return output;
++        String result = output;
++        for (Map.Entry<String, String> e : maskMap.entrySet()) {
++            StringBuilder rx = new StringBuilder("(?i)");
++            for (char c : e.getKey().toCharArray()) {
++                rx.append(Pattern.quote(String.valueOf(c))).append("\\s*");
++            }
++            try {
++                result = Pattern.compile(rx.toString()).matcher(result)
++                        .replaceAll(Matcher.quoteReplacement(e.getValue() + " "));
++            } catch (Exception ex) {
++                // keep going with the other placeholders
++            }
++        }
++        result = result.replaceAll("(?i)M\\s*I\\s*L\\s*T\\s*E\\s*R\\s*M\\s*\\d+\\s*X?", "");
++        return result.replaceAll(" {2,}", " ").trim();
++    }
++}
+diff --git a/app/src/main/java/nie/translator/rtranslator/voice_translation/neural_networks/translation/Translator.java b/app/src/main/java/nie/translator/rtranslator/voice_translation/neural_networks/translation/Translator.java
+index eb235cd..09e3d64 100644
+--- a/app/src/main/java/nie/translator/rtranslator/voice_translation/neural_networks/translation/Translator.java
++++ b/app/src/main/java/nie/translator/rtranslator/voice_translation/neural_networks/translation/Translator.java
+@@ -56,6 +56,7 @@ import nie.translator.rtranslator.R;
+ import nie.translator.rtranslator.bluetooth.Message;
+ import nie.translator.rtranslator.bluetooth.Peer;
+ import nie.translator.rtranslator.databases.tatoeba.LinksData;
++import nie.translator.rtranslator.tools.CustomGlossary;
+ import nie.translator.rtranslator.tools.CustomLocale;
+ import nie.translator.rtranslator.tools.ErrorCodes;
+ import nie.translator.rtranslator.tools.FileTools;
+@@ -654,6 +655,12 @@ public class Translator extends NeuralNetworkApi {
+             if(saveResults) {
+                 lastInputText = new GuiMessage(new Message(global, textToTranslate), inputLanguage, outputLanguage, false, true);
+             }
++            // [MIL-GLOSSARY] exact military glossary override
++            if (performGlossaryExact(textToTranslate, inputLanguage, outputLanguage, saveResults, responseListener)) {
++                return;
++            }
++            // [MIL-GLOSSARY] in-sentence military terminology masking
++            final java.util.Map<String, String> milMask = new java.util.LinkedHashMap<>();
+             boolean isTatoebaResult = false;  //will be true and remain true is one of the splits of the text is translated by tatoeba
+             boolean isDictionaryResult = false;  //will be true and remain true only if all the splits of the text are translated by a dictionary
+             String[] synonyms = null;
+@@ -729,6 +736,10 @@ public class Translator extends NeuralNetworkApi {
+                 android.util.Log.i("performance", "Text split done in: " + (System.currentTimeMillis() - initTime) + "ms");
+ 
+                 final String[] joinedStringOutput = {""};
++                //[MIL-GLOSSARY] mask military terms in every split before dictionary/tatoeba/NN translation
++                for (int i = 0; i < textSplit.size(); i++) {
++                    textSplit.set(i, CustomGlossary.maskText(global, textSplit.get(i), inputLanguage, outputLanguage, milMask));
++                }
+                 for (int i = 0; i < textSplit.size(); i++) {
+                     String finalSplitResult = null;
+                     if(global.isUseTranslationDictionaries()) {
+@@ -789,7 +800,9 @@ public class Translator extends NeuralNetworkApi {
+                     }
+                     synchronized (langResourcesLock) {
+                         if (finalResult == null) {
+-                            finalResult = BergamotTranslator.translateMultiple(new String[]{textToTranslate}, inputLanguage, outputLanguage)[0];
++                            //[MIL-GLOSSARY] mask military terms before Bergamot translation
++                            String mozillaInput = CustomGlossary.maskText(global, textToTranslate, inputLanguage, outputLanguage, milMask);
++                            finalResult = BergamotTranslator.translateMultiple(new String[]{mozillaInput}, inputLanguage, outputLanguage)[0];
+                         } else {
+                             isTatoebaResult = true;
+                         }
+@@ -798,6 +811,8 @@ public class Translator extends NeuralNetworkApi {
+                     isDictionaryResult = true;
+                 }
+             }
++            //[MIL-GLOSSARY] restore the translated military terms in place of the placeholders
++            finalResult = CustomGlossary.unmask(finalResult, milMask);
+             android.util.Log.i("performance", "TRANSLATION DONE IN: " + (System.currentTimeMillis() - initTime) + "ms");
+             if (saveResults) {
+                 lastOutputText = new GuiMessage(new Message(global, finalResult), inputLanguage, outputLanguage, currentResultID, false, true);
+@@ -829,6 +844,25 @@ public class Translator extends NeuralNetworkApi {
+         }
+     }
+ 
++    //[MIL-GLOSSARY] whole-phrase exact military glossary translation; returns true if it handled the text
++    private boolean performGlossaryExact(final String textToTranslate, final CustomLocale inputLanguage, final CustomLocale outputLanguage, boolean saveResults, @Nullable final TranslateListener responseListener) {
++        final String glossaryResult = CustomGlossary.exactTranslate(global, textToTranslate, inputLanguage, outputLanguage);
++        if (glossaryResult == null) {
++            return false;
++        }
++        if (saveResults) {
++            lastOutputText = new GuiMessage(new Message(global, glossaryResult), inputLanguage, outputLanguage, currentResultID, false, true);
++        }
++        final long glossaryResultID = currentResultID;
++        currentResultID++;
++        if (responseListener != null) {
++            mainHandler.post(() -> responseListener.onTranslatedText(textToTranslate, glossaryResult, null, glossaryResultID, true, TranslateListener.ResultType.DICTIONARY, inputLanguage, outputLanguage));
++        } else {
++            mainHandler.post(() -> notifyResult(textToTranslate, glossaryResult, null, glossaryResultID, true, TranslateListener.ResultType.DICTIONARY, inputLanguage, outputLanguage));
++        }
++        return true;
++    }
++
+     @Nullable
+     private String performTatoebaTranslation(String text, CustomLocale inputLanguage, CustomLocale outputLanguage){
+         synchronized (langResourcesLock) {
