@@ -19,9 +19,18 @@ jobs:
 
       - name: Install Android packages
         run: |
-          echo "ANDROID_HOME=$ANDROID_HOME"
-          (yes | sdkmanager --licenses > /dev/null 2>&1 || yes | sudo sdkmanager --licenses > /dev/null 2>&1) || true
-          sdkmanager "platforms;android-36" "build-tools;36.0.0" "ndk;28.0.12674087" "cmake;3.22.1" || sudo sdkmanager "platforms;android-36" "build-tools;36.0.0" "ndk;28.0.12674087" "cmake;3.22.1"
+          set -x
+          echo "ANDROID_HOME=$ANDROID_HOME ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
+          ls "$ANDROID_HOME" || true
+          ls "$ANDROID_HOME/cmdline-tools" || true
+          SDKM=""
+          for c in "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "$ANDROID_HOME/cmdline-tools/bin/sdkmanager" "$(command -v sdkmanager)"; do
+            if [ -n "$c" ] && [ -x "$c" ]; then SDKM="$c"; break; fi
+          done
+          echo "SDKM=$SDKM"
+          if [ -z "$SDKM" ]; then find / -name sdkmanager -type f 2>/dev/null | head -5; exit 1; fi
+          yes | "$SDKM" --sdk_root="$ANDROID_HOME" --licenses > /dev/null 2>&1 || true
+          "$SDKM" --sdk_root="$ANDROID_HOME" "platforms;android-36" "build-tools;36.0.0" "ndk;28.0.12674087" "cmake;3.22.1" || sudo "$SDKM" --sdk_root="$ANDROID_HOME" "platforms;android-36" "build-tools;36.0.0" "ndk;28.0.12674087" "cmake;3.22.1"
 
       - name: Apply military glossary patch
         run: |
