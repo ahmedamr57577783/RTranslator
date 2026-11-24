@@ -17,13 +17,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
       - name: Install Android packages
         run: |
-          yes | sdkmanager --licenses > /dev/null || true
-          sdkmanager "platforms;android-36" "build-tools;36.0.0" "ndk;28.0.12674087" "cmake;3.22.1"
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          (yes | sdkmanager --licenses > /dev/null 2>&1 || yes | sudo sdkmanager --licenses > /dev/null 2>&1) || true
+          sdkmanager "platforms;android-36" "build-tools;36.0.0" "ndk;28.0.12674087" "cmake;3.22.1" || sudo sdkmanager "platforms;android-36" "build-tools;36.0.0" "ndk;28.0.12674087" "cmake;3.22.1"
 
       - name: Apply military glossary patch
         run: |
